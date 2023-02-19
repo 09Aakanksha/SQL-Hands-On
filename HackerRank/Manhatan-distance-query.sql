@@ -15,4 +15,4 @@ Station.jpg
 
 where LAT_N is the northern latitude and LONG_W is the western longitude.*/
 
-select round(abs(min(lat_n)-max(lat_n)+min(long_w)-max(long_w)),4) from station;
+select round(abs(min(lat_n) - max(lat_n) + min(long_w) - max(long_w)),4) from station;
